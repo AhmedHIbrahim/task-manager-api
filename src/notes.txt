@@ -1,0 +1,11 @@
+REST -> Representational State Transfer
+API  -> Application Programming Interface
+
+REST API (or RESTful API) where states are kept on the server with need of client passing all required states.
+
+The Task Resource:: 
+Create -> POST    /tasks
+Read   -> GET     /tasks 
+Read   -> GET     /tasks/:id 
+Update -> PATCH   /tasks/:id 
+Delete -> DELETE  /tasks/:id 
